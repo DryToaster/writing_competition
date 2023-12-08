@@ -12,19 +12,19 @@ This repository contains a series of Jupyter notebooks that form a comprehensive
 
 The keystroke logging program collects a variety of variables related to the argumentative writing task. These variables are logged and aggregated to provide insights into the participants' writing behavior. The variables include:
 
-|    Variable     |                                          Description                                          |  Type   |     | Was it Used |
-| :-------------: | :-------------------------------------------------------------------------------------------: | :-----: | :-: | :---------: |
-|       ID        |                                  Identifies the participant.                                  | String  |     |     Yes     |
-|    Event ID     |               Indexes the keyboard and mouse operations in chronological order.               | Integer |     |     No      |
-|    Down Time    |            Denotes the time (in milliseconds) when a key or the mouse was pressed.            | Integer |     |     Yes     |
-|     Up Time     |                           Indicates the release time of the event.                            | Integer |     |     No      |
-|   Action Time   |             Represents the duration of the operation (i.e., Up Time - Down Time).             | Integer |     |     Yes     |
-| Cursor Position | Registers cursor position information to help keep track of the location of the leading edge. | Integer |     |     Yes     |
-|   Word Count    |                      Displays the accumulated number of words typed in.                       | Integer |     |     No      |
-|   Text Change   |                       Shows the exact changes made to the current text.                       | String  |     |     No      |
-|    Activity     |                Indicates the nature of the changes (e.g., Input, Remove/Cut).                 | String  |     |     Yes     |
-|    Up Event     |                     Indicates the key or mouse button that was released.                      | String  |     |     No      |
-|   Down Event    |                      Indicates the key or mouse button that was pressed.                      | String  |     |     No      |
+|    Variable     |                                          Description                                          |  Type   | Was it Used |
+| :-------------: | :-------------------------------------------------------------------------------------------: | :-----: | :---------: |
+|       ID        |                                  Identifies the participant.                                  | String  |     Yes     |
+|    Event ID     |               Indexes the keyboard and mouse operations in chronological order.               | Integer |      No      |
+|    Down Time    |            Denotes the time (in milliseconds) when a key or the mouse was pressed.            | Integer |     Yes     |
+|     Up Time     |                           Indicates the release time of the event.                            | Integer |     No      |
+|   Action Time   |             Represents the duration of the operation (i.e., Up Time - Down Time).             | Integer |     Yes     |
+| Cursor Position | Registers cursor position information to help keep track of the location of the leading edge. | Integer |     Yes     |
+|   Word Count    |                      Displays the accumulated number of words typed in.                       | Integer |     No      |
+|   Text Change   |                       Shows the exact changes made to the current text.                       | String  |     No      |
+|    Activity     |                Indicates the nature of the changes (e.g., Input, Remove/Cut).                 | String  |     Yes     |
+|    Up Event     |                     Indicates the key or mouse button that was released.                      | String  |     No      |
+|   Down Event    |                      Indicates the key or mouse button that was pressed.                      | String  |     No      |
 
 ### Files In This Repository
 
